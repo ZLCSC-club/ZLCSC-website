@@ -1,3 +1,7 @@
 .section-2 {
-  
+    margin: 30vw;
+    background: black;
+}
+.inside {
+    display: flex;
 }
