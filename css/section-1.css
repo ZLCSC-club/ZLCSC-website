@@ -1,3 +1,11 @@
 .section-1 {
-  
+  background-color: #343536;
+  margin-left: 30vw;
+  display:flex;
+  flex-direction: column;
+}
+   
+.content {
+  height: 100%;
+  width: 100%;
 }
