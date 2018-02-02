@@ -1,10 +1,9 @@
-.section-2 {margin: 30vw;
+.section-2 {
+    margin: 30vw;
     margin-left: 30%;
     margin-right: 0%;
     margin-top: 10%;
     font-size: xx-large
-
-    
 }
 .section-2 h1{ 
     color:#20FC8F;
@@ -13,4 +12,7 @@
 }
 .section-2 p{
 color:white;
+}
+.inside {
+    display: flex;
 }
