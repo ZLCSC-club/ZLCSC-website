@@ -5,7 +5,14 @@
   flex-direction: column;
 }
    
-.content {
+.section-1 .content {
   height: 100%;
   width: 100%;
+}
+.section-1 h1 {
+    color: #20fc8f;
+    text-align: left;
+}
+.section-1 p {
+    color: white;
 }
