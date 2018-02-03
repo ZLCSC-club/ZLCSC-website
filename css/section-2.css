@@ -1,11 +1,13 @@
 .section-2 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
     font-size: 1.6rem;
 }
-.section-2 h1{ 
+.section-2 h1 { 
     color: #20FC8F;
     text-align: left;
 }
-.section-2 p{
+.section-2 p {
     color: white;
 }
 .inside {

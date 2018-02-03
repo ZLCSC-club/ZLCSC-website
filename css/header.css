@@ -8,7 +8,8 @@
 }
 .sidemenu {
     position: fixed;
-    float: left;
+    top: 170px;
+    left: 25vw;
     height: 30vm;
     width: 155px;
     padding: 10px;
@@ -21,6 +22,8 @@
 header, .sidemenu {
     text-align: center;
 }
-.a p{
-    color:white;
+.section-0 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin-top: 150px;
 }
