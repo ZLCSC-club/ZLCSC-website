@@ -1,10 +1,15 @@
+.wrapper {
+    width: 900px;
+    margin: 150px auto;
+}
+.main {
+    display: block;
+    float: right;
+    width: 660px;
+}
 .section-1 {
   background-color: #343536;
-  margin-left: 30vw;
-  display:flex;
-  flex-direction: column;
-}
-   
+}  
 .section-1 .content {
   height: 100%;
   width: 100%;

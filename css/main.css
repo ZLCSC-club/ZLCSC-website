@@ -28,7 +28,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -50,4 +52,30 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* Basic layout */
+
+html {
+    font-size: 62.5%;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body{
+    background: #2b2b2b;
+    font-family: sans-serif;
+}
+h1 {
+    color: #20FC8F;
+    font-size: 3.5rem;
+    line-height: 70px;
+}
+p {
+    font-size: 1.6rem;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }

@@ -1,17 +1,12 @@
 .section-2 {
-    margin: 30vw;
-    margin-left: 30%;
-    margin-right: 0%;
-    margin-top: 10%;
-    font-size: xx-large
+    font-size: 1.6rem;
 }
 .section-2 h1{ 
-    color:#20FC8F;
+    color: #20FC8F;
     text-align: left;
-
 }
 .section-2 p{
-color:white;
+    color: white;
 }
 .inside {
     display: flex;

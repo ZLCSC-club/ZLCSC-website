@@ -1,29 +1,23 @@
-body{
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background: #2b2b2b;
+    text-align: center;
+    padding-top: 20px;
 }
-header{
-
-}
-header .nav {
-    margin:top;
-    background: #2b2b2b;
-    height:100px;
-}
-header .menu {
-    margin:left;
-    width:100px;
-    height:30vm;
+.sidemenu {
+    position: fixed;
+    float: left;
+    height: 30vm;
+    width: 155px;
+    padding: 10px;
     background: #72727269;
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+    line-height: 40px;
+    color: white;
 }
-header .nav h1{
-    color:#20FC8F;
-    font-size: 40px;
-    text-align:center;
-}
-header .menu p{
-    color:white;
-    text-align:center;
-}
-.a{
-    
+header, .sidemenu {
+    text-align: center;
 }
