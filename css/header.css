@@ -32,6 +32,7 @@
     color: white;
 }
 header, .sidemenu {
+    z-index: 1000;
     text-align: center;
 }
 .section-0 {
@@ -39,6 +40,11 @@ header, .sidemenu {
     grid-row: 1 / 2;
     margin-top: 100px;
 }
+
+.section-0 .content {
+    width: 100%;
+}
+
 .section-0 h1{
     letter-spacing: 4px;
 }

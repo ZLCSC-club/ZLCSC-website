@@ -85,6 +85,5 @@ p {
     grid-template-rows: auto;
 }
 .content {
-    margin: 35px;
-    width: 50vw;
+    margin: 35px 0;
 }
