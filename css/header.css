@@ -25,5 +25,5 @@ header, .sidemenu {
 .section-0 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    margin-top: 150px;
+    margin-top: 100px;
 }
