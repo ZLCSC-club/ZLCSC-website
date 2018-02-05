@@ -81,7 +81,7 @@ p {
 }
 .main {
     display: grid;
-    grid-template-columns: 40% 40% 20%;
+    grid-template-columns: 30% 50% 20%;
     grid-template-rows: auto;
 }
 .content {
