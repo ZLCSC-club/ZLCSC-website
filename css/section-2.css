@@ -12,4 +12,8 @@
 }
 .inside {
     display: flex;
+    width: 50vw
+}
+.content {
+    width: 25vw;
 }
