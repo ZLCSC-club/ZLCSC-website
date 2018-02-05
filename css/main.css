@@ -76,6 +76,7 @@ h1 {
 }
 p {
     font-size: 1.6rem;
+    line-height: 30px;
     color: white;
 }
 .main {
