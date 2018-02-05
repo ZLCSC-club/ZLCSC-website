@@ -10,10 +10,12 @@
 .section-2 p {
     color: white;
 }
-.inside {
+.section-2 .inside {
     display: flex;
-    width: 50vw
+    flex-direction: row;
+    justify-content: space-between;
 }
-.content {
-    width: 25vw;
+.section-2 .inside .content {
+    width: calc(50% - 1rem);
+    /* padding: 0 1rem; */
 }
