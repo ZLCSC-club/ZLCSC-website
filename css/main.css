@@ -83,3 +83,6 @@ p {
     grid-template-columns: 40% 40% 20%;
     grid-template-rows: auto;
 }
+.content {
+    margin: 50px;
+}
