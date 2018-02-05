@@ -11,6 +11,15 @@
 .section-3 p { 
     color: white; 
 }
+.section-3 ul {
+    list-style: circle;
+    color: white;
+    font-size: 18px;
+    line-height: 23px;
+}
+.section-3 ul li {
+    font-size: 14px;
+}
 .background2 {
     grid-column: 1 / 4;
     grid-row: 4 / 5;
