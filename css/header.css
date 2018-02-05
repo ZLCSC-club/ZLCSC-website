@@ -38,3 +38,6 @@ header, .sidemenu {
     grid-row: 1 / 2;
     margin-top: 100px;
 }
+.section-0 h1{
+    letter-spacing: 4px;
+}
