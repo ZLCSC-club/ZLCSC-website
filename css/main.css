@@ -2,6 +2,7 @@
 @import "./section-2.css";
 @import "./section-3.css";
 @import "./header.css";
+@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
 
 /* Start reset css */
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -26,6 +27,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font: inherit;
+    font-family: 'Noto Sans TC', sans-serif;
 	vertical-align: baseline;
 }
 
