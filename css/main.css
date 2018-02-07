@@ -87,3 +87,7 @@ p {
 .content {
     margin: 35px 0;
 }
+
+.icon {
+    text-decoration: none;
+}
