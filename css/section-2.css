@@ -19,3 +19,7 @@
     width: calc(50% - 1rem);
     /* padding: 0 1rem; */
 }
+.icon {
+    color: white;
+    font-size: 2vw;
+}
