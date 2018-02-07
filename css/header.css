@@ -35,6 +35,9 @@ header, .sidemenu {
     z-index: 1000;
     text-align: center;
 }
+header, .sidemenu a{
+    color: #FFFFFF;
+}
 .section-0 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
