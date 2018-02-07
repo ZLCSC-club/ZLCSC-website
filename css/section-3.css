@@ -29,11 +29,13 @@
 .teacher {
     display: flex;
     align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
 }
 .teacher .content {
     margin: 0;
 }
-
-.left {
-    padding-right: 60px;
+.teacher > div {
+    width: calc(50% - 2rem);
 }
