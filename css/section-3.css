@@ -26,9 +26,14 @@
     z-index: -1;
     background: #525371;
 }
-.teacher1 {
+.teacher {
     display: flex;
+    align-items: flex-start;
 }
-.teacher2{
-    display: flex;
+.teacher .content {
+    margin: 0;
+}
+
+.left {
+    padding-right: 40px;
 }
