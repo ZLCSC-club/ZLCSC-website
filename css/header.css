@@ -15,12 +15,12 @@
 
 .nav img {
     margin-right: 2rem;
-    height: 100%;
+    height: 150%;
 }
 .sidemenu {
     position: fixed;
     top: 170px;
-    left: 13vw;
+    left: 16vw;
     height: auto;
     width: 155px;
     padding: 10px;
@@ -30,13 +30,16 @@
     letter-spacing: 5px;
     line-height: 40px;
     color: white;
+
 }
 header, .sidemenu {
     z-index: 1000;
-    text-align: center;
 }
 header, .sidemenu a{
     color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+    left: 0.5vw;
 }
 .section-0 {
     grid-column: 2 / 3;
@@ -50,4 +53,9 @@ header, .sidemenu a{
 
 .section-0 h1{
     letter-spacing: 4px;
+}
+
+#headerwords{
+    letter-spacing: 3px;
+    font-weight:
 }
