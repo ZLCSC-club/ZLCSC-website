@@ -12,30 +12,40 @@
     color: white; 
 }
 .section-3 ul {
-    list-style: circle;
+    list-style: none;
     color: white;
     font-size: 30px;
     line-height: 30px;
 }
-.section-3 ul li {
+.section-3 ul li,.section-3 ul li a{
     font-size: 2rem;
 }
 .background2 {
     grid-column: 1 / 4;
     grid-row: 4 / 5;
     z-index: -1;
-    background: #525371;
 }
-.teacher {
+
+.teacher,.friend{
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
 }
-.teacher .content {
+.teacher .content,.friend .content  {
     margin: 0;
 }
-.teacher > div {
+
+.teacher > div, .friend > div{
     width: calc(50% - 2rem);
+}
+
+
+.section-3 ul a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
 }
