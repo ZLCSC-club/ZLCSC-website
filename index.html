@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/main.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <title>ZLCSC</title>
+    <title>中崙資研 ZLCSC</title>
+    <link rel="icon" href="./img/headerimage.png">
+    <script src="./main.js"></script>    
+
 </head>
 
 <body>
@@ -35,14 +38,20 @@
                 <a href='#friend'>特別感謝</a>
             </li>
             <div id="social_icon">
-                <a href="https://www.facebook.com/ZLCSC108/"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://github.com/ZLCSC-club"><i class="fab fa-github"></i></a>
-                <a><i class="fab fa-youtube"></i></a>
+                <a href="https://www.facebook.com/ZLCSC108/"><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
             </div>
         </ul>
+        <div id="countdown">
+            <h2 >茶會倒數<br>30天</h2>
+            <a href="" id="signup">點我報名</a>
+        </div>
     </div>
+
     <div class="main">
         <div class="section-0">
+            <img src="./img/withpeople.jpg" width="100%" style="margin-top:70px" >
             <div class="content">
                 <h1>理念</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis blanditiis itaque quod molestiae voluptate,
@@ -54,9 +63,15 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sit nemo at error commodi deleniti minus,
                     rerum obcaecati qui ducimus distinctio reprehenderit eius veniam ab? Fuga quas minus quisquam unde!</p>
             </div>
-            <div class="content">
-                <h1>活動</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate</p>
+            <div id="activities" class="content">
+                <button type="button" onclick="lasttext"><i class="fas fa-chevron-left"></i></a> 
+                <div class="between">
+                    <h2>維基百科 工作坊</h2>
+                    <h2>4/28 2:00~5:00</h2>
+                    <h2>中崙高中 電腦教室（ㄧ）</h2>
+                    <p>想要成為維基寫作的一員、一起參與開源文化的活動，或是，了解李梅樹的生平，都歡迎來參加這場聚會。</p>
+                </div>
+                <button type="button" onclick="nexttext"><i class="fas fa-chevron-right"></i></a>
             </div>
         </div>
         <div class="section-1">
@@ -92,76 +107,12 @@
             </div>
         </div>
         <div class="section-2">
-            <div class="inside">
-                <div class="content">
-                    <h1>2/22</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis vero, fuga minus, magni veritatis beatae
-                        amet est doloribus quos fugiat, recusandae repudiandae impedit magnam. Porro nisi vel dolore consectetur
-                        illo?
-                    </p>
-                </div>
-                <div class="content">
-                    <h1>2/22</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio aliquid facilis voluptatem saepe
-                        voluptates veritatis dolores voluptatibus repellat enim, corrupti nemo laudantium inventore soluta
-                        doloribus consequuntur. Doloribus cupiditate itaque quaerat.
-                    </p>
-                </div>
-            </div>
-            <div class="inside">
-                <div class="content">
-                    <h1>2/22</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis vero, fuga minus, magni veritatis beatae
-                        amet est doloribus quos fugiat, recusandae repudiandae impedit magnam. Porro nisi vel dolore consectetur
-                        illo?
-                    </p>
-                </div>
-                <div class="content">
-                    <h1>2/22</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio aliquid facilis voluptatem saepe
-                        voluptates veritatis dolores voluptatibus repellat enim, corrupti nemo laudantium inventore soluta
-                        doloribus consequuntur. Doloribus cupiditate itaque quaerat.
-                    </p>
-                </div>
-            </div>
-            <div class="inside">
-                <div class="content">
-                    <h1>2/22</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis vero, fuga minus, magni veritatis beatae
-                        amet est doloribus quos fugiat, recusandae repudiandae impedit magnam. Porro nisi vel dolore consectetur
-                        illo?
-                    </p>
-                </div>
-                <div class="content">
-                    <h1>2/22</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio aliquid facilis voluptatem saepe
-                        voluptates veritatis dolores voluptatibus repellat enim, corrupti nemo laudantium inventore soluta
-                        doloribus consequuntur. Doloribus cupiditate itaque quaerat.
-                    </p>
-                </div>
-            </div>
-            <div class="inside">
-                <div class="content">
-                    <h1>2/22</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis vero, fuga minus, magni veritatis beatae
-                        amet est doloribus quos fugiat, recusandae repudiandae impedit magnam. Porro nisi vel dolore consectetur
-                        illo?
-                    </p>
-                </div>
-                <div class="content">
-                    <h1>2/22</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio aliquid facilis voluptatem saepe
-                        voluptates veritatis dolores voluptatibus repellat enim, corrupti nemo laudantium inventore soluta
-                        doloribus consequuntur. Doloribus cupiditate itaque quaerat.
-                    </p>
-                </div>
-            </div>
             <div class="content">
             </div>
             <div class="inside">
                 <div id="people" class="content">
                     <h1>社長 陳寬謙
-                        <a href="" class="icon"><i class="fab fa-facebook-square"></i></a>
+                        <a href="" class="icon"><i class="fab fa-facebook-f"></i></a>
                         <a href="" class="icon"><i class="fab fa-github"></i></a>
                     </h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis vero, fuga minus, magni veritatis beatae
@@ -171,19 +122,19 @@
                 </div>
                 <div class="content">
                     <h1>副社 謝宗庭
-                            <a href="" class="icon"><i class="fab fa-facebook-square"></i></a>
-                            <a href="" class="icon"><i class="fab fa-github"></i></a>
+                        <a href="" class="icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" class="icon"><i class="fab fa-github"></i></a>
                     </h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio aliquid facilis voluptatem saepe
-                        voluptates veritatis dolores voluptatibus repellat enim, corrupti nemo laudantium inventore soluta
-                        doloribus consequuntur. Doloribus cupiditate itaque quaerat.
+                    <p>我並沒有什麼特別的專長，只是一個理科比較好的普通學生，
+                    興趣是閱讀小說以及聽音樂。當初加入資研社只是因為大部分社團我都沒興趣，剩下由電腦分發剛好被分到了，在社團中我學習到了硬體的基礎，
+                    像是CPU過去到現在的變化，還有記憶體是如何運作，這些課程都讓我得到了不少的幫助。
                     </p>
                 </div>
             </div>
             <div class="inside">
                 <div class="content">
                     <h1>教學 李品雋
-                        <a href="" class="icon"><i class="fab fa-facebook-square"></i></a>
+                        <a href="" class="icon"><i class="fab fa-facebook-f"></i></a>
                         <a href="" class="icon"><i class="fab fa-github"></i></a>
                     </h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis vero, fuga minus, magni veritatis beatae
@@ -193,7 +144,7 @@
                 </div>
                 <div class="content">
                     <h1>活動 洪詩晏
-                        <a href="" class="icon"><i class="fab fa-facebook-square"></i></a>
+                        <a href="" class="icon"><i class="fab fa-facebook-f"></i></a>
                         <a href="" class="icon"><i class="fab fa-github"></i></a>
                     </h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio aliquid facilis voluptatem saepe
@@ -205,15 +156,18 @@
             <div class="inside">
                 <div class="content">
                     <h1>活動 許軒豪
-                        <a href="" class="icon"><i class="fab fa-facebook-square"></i></a>
+                        <a href="" class="icon"><i class="fab fa-facebook-f"></i></a>
                         <a href="" class="icon"><i class="fab fa-github"></i></a>
                     </h1>
-                    <p>我的專長嘛打lol或者是幹話，興趣是看電影和動漫，總之就是一個不算肥的肥宅。為什麼選擇加入資研社，是因為對於電腦的程式設計和遊戲設計還算蠻有興趣去學習吧，於是我就在一種想看看程式設計到底是什麼的心情，下進入了資研社，一待就是兩年，中間學到了不少東西，也算是對自己當初的期望有個交代了吧。
+                    <p>我的專長嘛打lol或者是幹話，興趣是看電影和動漫，總之就是一個不算肥的肥宅。
+                    為什麼選擇加入資研社，是因為對於電腦的程式設計和遊戲設計還算蠻有興趣去學習吧，
+                    於是我就在一種想看看程式設計到底是什麼的心情，下進入了資研社，一待就是兩年，
+                    中間學到了不少東西，也算是對自己當初的期望有個交代了吧。
                     </p>
                 </div>
                 <div class="content">
                     <h1>美宣文書 楊瑀潔
-                        <a href="" class="icon"><i class="fab fa-facebook-square"></i></a>
+                        <a href="" class="icon"><i class="fab fa-facebook-f"></i></a>
                         <a href="" class="icon"><i class="fab fa-github"></i></a>
                     </h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio aliquid facilis voluptatem saepe
@@ -224,91 +178,77 @@
             </div>
         </div>
         <div class="section-3">
-            <div id="teacher" class="content">
-                <h1>講師 王文岳
-                    <a href="https://www.facebook.com/allen.wang.1675" class="icon">
-                        <i class="fab fa-facebook-square"></i>
-                    </a>
-                    <a href="" class="icon">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="" class="icon">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </h1>
-            </div>
-            <div class="teacher">
-                <div class="tleft">
+            <div class="content">
+                    <h1>講師 王文岳
+                        <a href="https://www.facebook.com/allen.wang.1675" class="icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </h1>
+                
+                <div class="teacher">
                     <ul>
                         <li>大安高工電腦研究社客座講師</li>
-                        <li>中崙高中資訊研習社聘任指導老師</li>
                         <li>李梅樹紀念館資訊組招集人</li>
                     </ul>
                 </div>
-                <div class="content">
-                    <ul>
-
-                        <li>擅長硬體規劃與解決方案提供</li>
-                        <li>研究電腦硬體市場變革、硬體歷史相關知識與硬體架構</li>
-                    </ul>
+                <div class="teacher">
+                    <p>研究電腦硬體相關知識達三年以上，擅長硬體規劃與解決方案提供，
+                    研究方向為電腦硬體市場變革、硬體歷史相關知識與硬體架構，
+                    於高中職電資社團講習時間已達兩年以上，在台灣硬體論壇也有數篇硬體相關著作。</p>
                 </div>
             </div>
             <div class="content">
                 <h1>講師 王群皓
                     <a href="https://www.facebook.com/aries0d0f" class="icon">
-                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-facebook-f"></i>
                     </a>
                     <a href="https://github.com/Aries0d0f" class="icon">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="" class="icon">
-                        <i class="fas fa-envelope"></i>
-                    </a>
                 </h1>
-            </div>
-            <div class="teacher">
-                <div class="left">
+                <div class="teacher">
                     <ul>
-                        <li>精熟網頁前後端設計</li>
-                        <li>目前正在進行李梅樹紀念館網站開發</li>
+                        <li>李梅樹紀念館資訊組 RD</li>
+                        <li>全端工程師</li>
                     </ul>
                 </div>
-
-                <div class="content">
-                    <ul>
-                        <li>SITCON及台灣摩茲基金會</li>
-                        <li>積極參與黑客松</li>
-                    </ul>
+                <div class="teacher">
+                    <p>精熟網頁前後端設計。至今已有網頁前端開發及設計約兩年經驗，
+                    並領有由中華民國勞動部認證之硬體裝修丙級技術證照，
+                    且參加許多相關社群(如：SITCON及台灣摩茲基金會)，積極參與黑客松。
+                    目前正在進行李梅樹紀念館網站開發。</p>
                 </div>
             </div>
             <div id="friend" class="content">
                 <h1>友社名單</h1>
-            </div>
-            <div class="friend">
-                <div class="left">
-                    <ul>
-                        <li><a href="https://www.facebook.com/ssinrc/">SSINRC 松山資研</a></li>
-                        <li><a href="https://www.facebook.com/建中電研35th-482303981921779/?fref=ts">CKEISC 建中電研</a></li>
-                        <li><a href="https://www.facebook.com/infor28/">INFOR 建中資研</a></li>
-                        <li><a href="https://www.facebook.com/zsisc22nd/">ZSISC 中山女高資研社</a></li>
-                        <li><a href="https://www.facebook.com/HSNUCNMC20/">HSNUCNMC 師大附中網管社</a></li>
-                    </ul>
-                </div>
-                <div class="content">
-                    <ul>
-                        <li><a href="https://www.facebook.com/fgisc/">FGISC 北一女中資訊研習社</a></li>
-                        <li><a href="https://www.facebook.com/dacsc17th/">DACSC 大安高工電腦研究社</a></li>
-                        <li><a href="https://www.facebook.com/HPSHCP/">HPSHCP 和平高中程式研究社</a></li>
-                        <li><a href="https://www.facebook.com/HSNU.CRC/">HSNUCRC 師大附中電算社</a></li>
-                        <li><a href="https://csdc.tw">CSDC 竹嶺軟研</a></li>
-                    </ul>
+                <div class="friend">
+                    <div class="left">
+                        <ul>
+                            <li><a href="https://www.facebook.com/ssinrc/">SSINRC 松山資研</a></li>
+                            <li><a href="https://www.facebook.com/建中電研35th-482303981921779/?fref=ts">CKEISC 建中電研</a></li>
+                            <li><a href="https://www.facebook.com/infor28/">INFOR 建中資研訊社</a></li>
+                            <li><a href="https://www.facebook.com/zsisc22nd/">ZSISC 中山女高資研社</a></li>
+                            <li><a href="https://www.facebook.com/HSNUCNMC20/">HSNUCNMC 師大附中網管社</a></li>
+                        </ul>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li><a href="https://www.facebook.com/fgisc/">FGISC 北一女中資訊研習社</a></li>
+                            <li><a href="https://www.facebook.com/dacsc17th/">DACSC 大安高工電腦研究社</a></li>
+                            <li><a href="https://www.facebook.com/HPSHCP/">HPSHCP 和平高中程式研究社</a></li>
+                            <li><a href="https://www.facebook.com/HSNU.CRC/">HSNUCRC 師大附中電算社</a></li>
+                            <li><a href="https://csdc.tw">CSDC 竹嶺軟研</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
         </div>
         <footer id="footer"></footer>
-        <div class="background1"></div>
-        <div class="background2"></div>
+
     </div>
 </body>
 
