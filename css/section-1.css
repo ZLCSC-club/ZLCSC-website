@@ -6,15 +6,38 @@
     width: 100%;
 }
 .section-1 h1 {
-    color: #20fc8f;
     text-align: left;
     letter-spacing: 4px;
 }
 .section-1 p {
     color: white;
 }
-.background1 {
-    grid-column: 1 / 4;
-    grid-row: 2 / 3;
-    z-index: -1;
+.section-0 .content {
+    width: 100%;
 }
+
+.between{
+    display:block;
+    margin:50px auto;
+    
+    width:70%;    
+    text-align: center;
+    margin:auto;
+}
+/*
+.fa-chevron-left,.fa-chevron-right{
+    display: block;
+    font-size: 50px;
+    color:white;
+    height:200px;
+}
+.fa-chevron-left{
+    width:15%;
+    float:left;
+}
+.fa-chevron-right{
+    width:15%;
+    float:right;
+}
+很亂要重寫
+*/

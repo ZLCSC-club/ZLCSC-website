@@ -1,46 +1,65 @@
 .nav {
     position: fixed;
-    top: 0;
+
     width: 100%;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 25px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 6rem;
-    margin-top:30px;
-}
+    height: 7rem;
+    background-color: rgba(0,0,0,0);
 
+}
 .nav img {
     margin-right: 2rem;
-    height: 150%;
+    height: 100%;
+}
+header, .sidemenu {
+    z-index: 100;
 }
 .sidemenu {
     position: fixed;
     top: 170px;
     left: 16vw;
-    height: auto;
+    height: 270px;
     width: 155px;
-    padding: 10px;
-    font-size: 2.5rem;
-    font-weight: 250;
+    font-size: 2.3rem;
+    font-weight: 300;
     letter-spacing: 5px;
-    line-height: 40px;
+    line-height: 45px;
     color: white;
     background-color: #82838B;
-    
-}
-header, .sidemenu {
-    z-index: 1000;
+    text-align: center
 }
 header, .sidemenu a{
-    color: #FFFFFF;
+    display: block;
+    width:100%;
+    color: white;
     text-decoration: none;
     position: relative;
-    left: 0.5vw;
+    font-weight:260
 }
+.sidemenu a:hover{
+    display: block;
+    width:100%;
+    color: #82838B;
+    background:#ffffffe1;
+    font-weight:370
+}
+#social_icon a{
+    color:rgba(236, 236, 236, 0.89);
+    display:inline;
+    text-align: left;
+    margin-right:7px
+}
+#social_icon a:hover{
+    background:#82838B;
+    color:white
+}
+
 .section-0 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
@@ -54,14 +73,34 @@ header, .sidemenu a{
 .section-0 h1{
     letter-spacing: 4px;
 }
-
-#headerwords{
-    letter-spacing: 3px;
-    color:white;
-    font-weight: 400; 
+#signup{
+    text-decoration: none;
+    width:130px;
+    height: auto;
+    font-size:2.2rem;
+    border:2px solid white;
+    border-radius: 24px;
+    margin:auto;
 }
-
-
-#social_icon{
-    margin-left: 6px;
+#signup :hover{
+    color:black;
+    background:white;
+    border:2px solid white;
+    border-radius: 40px;    
+}
+#countdown{
+    margin-top:20px
+}
+#headerwords{
+    font-size:3.6rem;
+    letter-spacing: 6px;
+    font-weight: 270; 
+    color:white;
+}
+#headerwords:hover{
+    letter-spacing: 6px;
+    font-weight: 370; 
+/*    background: -webkit-linear-gradient(280deg, rgba(75, 255, 114, 0.829), rgba(0, 255, 55, 0.829));*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

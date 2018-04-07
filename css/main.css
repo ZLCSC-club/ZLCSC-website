@@ -30,18 +30,14 @@ time, mark, audio, video {
     font-family: 'Noto Sans TC', sans-serif;
 	vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
-
-
-
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
     line-height: 1;
-
+    
 }
 ol, ul {
 	list-style: none;
@@ -58,7 +54,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+button{
+    text-decoration: none;
+}
 /* Basic layout */
 
 html {
@@ -69,25 +67,34 @@ html {
 }
 body {
     width: 100%;
-    background: linear-gradient( #33B5BE,#A37DD5,#C67AD0,#C779D0,#C779D0,#4BC0C8); 
-    font-family: sans-serif;
+    background:linear-gradient( 290deg, rgba(167, 115, 5, 0.685) 10%, rgba(82, 43, 145, 0.842) 100%);
 }
 h1 {
-    color: #20FC8F;
-    font-size: 3.5rem;
+/*    color: #20FC8F;*/
+    color:white;
+    font-size: 3.4rem;
     line-height: 70px;
+    font-weight:220;
+}
+h2 {
+    color:white;
+    font-size: 2.7rem;
+    letter-spacing: 6px;
+    line-height: 50px;
+    font-weight:220;
 }
 p {
-    font-size: 1.6rem;
-    line-height: 30px;
+    font-size: 1.8rem;
+    line-height: 40px;
     color: white;
+    font-weight:300
 }
 .main {
     display: grid;
-    grid-template-columns: 30% 50% 20%;
+    grid-template-columns: 35.5% 52% 15%;
     grid-template-rows: auto;
 }
-.content {
+.content { 
     margin: 35px 0;
 }
 
@@ -98,6 +105,6 @@ p {
 #js_explained{
     letter-spacing:8px
 }
-li{
+a,li{
     text-decoration: none;
 }
