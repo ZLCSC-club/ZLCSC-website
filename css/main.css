@@ -56,6 +56,8 @@ table {
 }
 button{
     text-decoration: none;
+    border:none;
+    background:none
 }
 /* Basic layout */
 
