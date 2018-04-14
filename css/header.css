@@ -1,4 +1,4 @@
-.nav {
+/*.nav {
     position: fixed;
     width: 100%;
     text-align: center;
@@ -11,17 +11,21 @@
     height: 7rem;
     background-color: rgba(0,0,0,0);
     margin-top:30px
-}
+}*/
+
 .nav img {
-    height: 300%;
+    width:270px;
+    position: fixed;
+    top: 60px;
+    left: 9.2vw;
 }
 header, .sidemenu {
     z-index: 100;
 }
 .sidemenu {
     position: fixed;
-    top: 170px;
-    left: 16vw;
+    top: 220px;
+    left: 16.3vw;
     height: 270px;
     width: 155px;
     font-size: 2.3rem;
@@ -90,15 +94,17 @@ header, .sidemenu a{
     margin-top:20px
 }
 #headerwords{
-    font-size:3.6rem;
-    letter-spacing: 6px;
-    font-weight: 270; 
+    font-size:2.2rem;
+    letter-spacing: 5px;
+    font-weight: 300; 
     color:white;
+    width:290px;
+    position: fixed;
+    top: 150px;
+    left: 10.4vw;
 }
 #headerwords:hover{
-    letter-spacing: 6px;
-    font-weight: 370; 
-    background: -webkit-linear-gradient(280deg, rgba(240, 255, 243, 0.829), rgba(243, 255, 245, 0.829));
+  /*  background: -webkit-linear-gradient(280deg, rgba(240, 255, 243, 0.829), rgba(243, 255, 245, 0.829));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+*/}
