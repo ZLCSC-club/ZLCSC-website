@@ -1,6 +1,5 @@
 .nav {
     position: fixed;
-
     width: 100%;
     text-align: center;
     padding-top: 30px;
@@ -11,11 +10,10 @@
     align-items: center;
     height: 7rem;
     background-color: rgba(0,0,0,0);
-
+    margin-top:30px
 }
 .nav img {
-    margin-right: 2rem;
-    height: 100%;
+    height: 300%;
 }
 header, .sidemenu {
     z-index: 100;
@@ -50,7 +48,7 @@ header, .sidemenu a{
     font-weight:370
 }
 #social_icon a{
-    color:rgba(236, 236, 236, 0.89);
+    color:rgb(236, 236, 236);
     display:inline;
     text-align: left;
     margin-right:7px
@@ -100,7 +98,7 @@ header, .sidemenu a{
 #headerwords:hover{
     letter-spacing: 6px;
     font-weight: 370; 
-/*    background: -webkit-linear-gradient(280deg, rgba(75, 255, 114, 0.829), rgba(0, 255, 55, 0.829));*/
+    background: -webkit-linear-gradient(280deg, rgba(240, 255, 243, 0.829), rgba(243, 255, 245, 0.829));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
