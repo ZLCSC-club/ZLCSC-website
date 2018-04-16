@@ -1,96 +1,106 @@
 .side {
     display: block;
     position: fixed;
-    top: 80px;
-    left: 16.3vw;
-    height: auto;
-    width: 155px;
-    font-size: 2.3rem;
-    font-weight: 300;
-    letter-spacing: 5px;
-    line-height: 45px;
-    text-align: center;
+    top: 50px;
+    left: 9vw;
+    width: 270px;
+    line-height: 3.3em;
+
 }
-.sidemenu {
-    position: relative;
-    background-color: #82838B;
-}
-.nav {
+.logo {
     position: relative;
     top: 0px;
-    right: 55px;
+    left: -8px;
     width: 270px;
     height: auto;
-    background-color: rgba(0,0,0,0);
 }
-.nav img {
+.logo img {
     width: 270px;
 }
 #headerwords {
+    display: block;
     position: relative;
-    top: -20px;
-    font-size: 2.2rem;
+    top: -6px;
+    font-size: 2rem;
     letter-spacing: 5px;
     font-weight: 300; 
     color: white;
-    width: 100%;
+    width: 90%;
+    margin: 0.7em auto;
+    text-align: center;
+    border:solid 2px #ffffff;
 }
-#headerwords:hover {
-  /*  background: -webkit-linear-gradient(280deg, rgba(240, 255, 243, 0.829), rgba(243, 255, 245, 0.829));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-*/}
-header, .sidemenu a {
-    width: 100%;
-    color: white;
-    text-decoration: none;
+.sidemenu {
     position: relative;
-    font-weight: 260;
 }
-.sidemenu a:hover {
-    display: block;
-    width:100%;
-    color: #82838B;
-    background:#ffffffe1;
-    font-weight:370;
+.sidemenu a{
+    line-height: 5px;
+    border-left:solid 5px transparent;
+    letter-spacing: 0.45rem;
+    font-size: 2.4rem;
+    line-height: 4.4rem;
+    font-weight: 300;
+    color:rgba(255, 255, 255, 0.801);
+
+}
+.sidemenu a:hover{
+    color: white
+}
+#headerwords:hover{
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
 }
 #social_icon a {
-    color:rgb(236, 236, 236);
+    color:rgb(245, 245, 245);
     display:inline;
     text-align: left;
-    margin-right:7px;
+    margin:7px;
+    border:0
 }
 #social_icon a:hover {
-    background:#82838B;
     color:white;
 }
+
+.countdown {
+    width:47%;
+    margin-top: 30px;
+    text-align: center
+
+}
+#countdownwords{
+    font-size: 2.5rem
+}
+#signup {
+    margin-top: 19px;
+    display:block;
+    color: transparent;color:white;
+    text-align: center;
+    width:90%;
+    font-size: 2.3rem;
+    border-radius: 25px;
+    border: 2px solid white;
+    font-weight: 200
+}
+#signup:hover {
+    color:white ;
+    background: rgba(255, 255, 255, 0.096);
+    border: 2px solid white;
+}
+
+.countdown,.sidemenu{
+    margin-left:13px
+}
+
+
 
 .section-0 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     margin-top: 100px;
 }
-
 .section-0 .content {
     width: 100%;
 }
-
 .section-0 h1 {
     letter-spacing: 4px;
-}
-#countdown {
-    margin-top: 20px;
-    text-align: center;
-}
-#signup {
-    color: white;
-    width: 100%;
-    font-size: 2.2rem;
-    border: 2px solid white;
-    border-radius: 24px;
-}
-#signup:hover {
-    color: black;
-    background: white;
-    border: 2px solid white;
 }
