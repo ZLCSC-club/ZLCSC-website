@@ -28,7 +28,7 @@
     width: 90%;
     margin: 0.7em auto;
     text-align: center;
-    border:solid 2px #ffffff;
+    border: solid 2px #ffffff;
 }
 .sidemenu {
     position: relative;
@@ -40,46 +40,46 @@
     font-size: 2.4rem;
     line-height: 4.4rem;
     font-weight: 300;
-    color:rgba(255, 255, 255, 0.801);
+    color: rgba(255, 255, 255, 0.801);
 
 }
 .sidemenu a:hover{
-    color: white
+    color: white;
 }
 #headerwords:hover{
     background: rgba(255, 255, 255, 0.1);
     color: white;
 }
 #social_icon a {
-    color:rgb(245, 245, 245);
-    display:inline;
+    color: rgb(245, 245, 245);
+    display: inline;
     text-align: left;
-    margin:7px;
-    border:0
+    margin: 7px;
+    border: 0;
 }
 #social_icon a:hover {
     color:white;
 }
 
 .countdown {
-    width:47%;
+    width: 47%;
     margin-top: 30px;
-    text-align: center
+    text-align: center;
 
 }
 #countdownwords{
-    font-size: 2.5rem
+    font-size: 2.5rem;
 }
 #signup {
     margin-top: 19px;
-    display:block;
-    color: transparent;color:white;
+    display: block;
+    color: white;
     text-align: center;
-    width:90%;
+    width: 90%;
     font-size: 2.3rem;
     border-radius: 25px;
     border: 2px solid white;
-    font-weight: 200
+    font-weight: 200;
 }
 #signup:hover {
     color:white ;
@@ -88,11 +88,8 @@
 }
 
 .countdown,.sidemenu{
-    margin-left:13px
+    margin-left:13px;
 }
-
-
-
 .section-0 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;

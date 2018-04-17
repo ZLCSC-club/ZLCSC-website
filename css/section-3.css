@@ -19,8 +19,8 @@
 }
 .section-3 ul,.section-3 ul a{
     font-size: 2rem;
-    font-weight:300;
-    line-height:40px
+    font-weight: 300;
+    line-height: 40px;
 }
 .teacher,.friend{
     display: flex;
@@ -40,5 +40,5 @@
     list-style: none;
     color: white;
     line-height: 40px;
-    font-weight:300
+    font-weight: 300;
 }
