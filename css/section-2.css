@@ -13,7 +13,7 @@
 }
 .section-2 .inside .content {
     width: calc(50% - 1rem);
-    /* padding: 0 1rem; */
+    padding-right: 2rem; 
 }
 .icon {
     color: white;
