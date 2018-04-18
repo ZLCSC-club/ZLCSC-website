@@ -1,10 +1,12 @@
 .side {
     display: block;
     position: fixed;
-    top: 50px;
+    top: 70px;
     left: 9vw;
     width: 270px;
     line-height: 3.3em;
+    animation: opacity 0.5s 1;
+    animation-timing-function: ease-out;
 
 }
 .logo {
@@ -13,34 +15,35 @@
     left: -8px;
     width: 270px;
     height: auto;
+
 }
 .logo img {
-    width: 270px;
+    width: 110%;
+
 }
 #headerwords {
     display: block;
     position: relative;
     top: -6px;
-    font-size: 2rem;
+    left:12px;
+    font-size: 2.2rem;
     letter-spacing: 5px;
     font-weight: 300; 
     color: white;
-    width: 90%;
+    width: 97%;
     margin: 0.7em auto;
     text-align: center;
-    border: solid 2px #ffffff;
-}
-.sidemenu {
-    position: relative;
+    border: solid 2.3px #ffffff;
 }
 .sidemenu a{
     line-height: 5px;
     border-left:solid 5px transparent;
     letter-spacing: 0.45rem;
-    font-size: 2.4rem;
-    line-height: 4.4rem;
+    font-size: 2.2rem;
+    line-height: 4.1rem;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.801);
+    position: relative;
 
 }
 .sidemenu a:hover{
@@ -52,9 +55,10 @@
 }
 #social_icon a {
     color: rgb(245, 245, 245);
+    font-size:2.4rem;
     display: inline;
     text-align: left;
-    margin: 7px;
+    margin: 0.7rem;
     border: 0;
 }
 #social_icon a:hover {
@@ -68,36 +72,45 @@
 
 }
 #countdownwords{
+    margin-left: 2px;
     font-size: 2.5rem;
+    text-align: left
 }
 #signup {
-    margin-top: 19px;
+    margin-top: 14px;
     display: block;
-    color: white;
+    color:white;
     text-align: center;
-    width: 90%;
-    font-size: 2.3rem;
-    border-radius: 25px;
-    border: 2px solid white;
-    font-weight: 200;
+    width: 95%;
+    font-size: 2.1rem;
+    letter-spacing: 0.2rem;
+    border-radius: 22spx;
+    border: 2.3px solid white;
+    font-weight: 300;
 }
 #signup:hover {
-    color:white ;
-    background: rgba(255, 255, 255, 0.096);
-    border: 2px solid white;
+    color:rgb(100, 100, 100) ;
+    background: white;
+    border: 3px solid white;
 }
 
 .countdown,.sidemenu{
-    margin-left:13px;
+    margin-left:9++px;
 }
 .section-0 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 .section-0 .content {
     width: 100%;
 }
 .section-0 h1 {
     letter-spacing: 4px;
+}
+@keyframes opacity{
+    0%{ opacity: 0;left:6vh;}
+    25%{opacity:0;}
+    75%{ opacity: 1;}
+
 }
