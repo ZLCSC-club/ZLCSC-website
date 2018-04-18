@@ -54,9 +54,9 @@
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 0.6s;
   animation-name: fade;
-  animation-duration: 1s;
+  animation-duration: 0.6s;
 }
 
 @-webkit-keyframes fade {
@@ -67,4 +67,41 @@
 @keyframes fade {
   from {opacity: .2} 
   to {opacity: 1}
+}
+.left{
+    width:70%;
+    float:left
+}
+.codeimg-right{
+    font-size: 12rem;
+    width:30%;
+    height:300px;
+    float:left;
+    color: white;
+    line-height: 70px;
+    font-weight: 300;
+    margin-top:60px
+}
+.fa-home{
+    font-size: 14rem;
+    position: relative;
+    left:20px
+}
+.right{
+    width:70%;
+    float:right;
+    height:500px;
+    text-align: right
+
+}
+.codeimg-left{
+    font-size: 12rem;
+    width:30%;
+    height:300px;
+    float:left;
+    color: white;
+    line-height: 70px;
+    font-weight: 300;
+    margin-top:60px;
+    
 }
