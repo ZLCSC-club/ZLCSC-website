@@ -71,19 +71,28 @@ body {
     box-sizing: border-box;
 
     width: 100%;
-    background:linear-gradient( 320deg, rgba(206, 172, 36, 0.918) 3%, rgba(226, 62, 185, 0.945) 100%);
+    background:linear-gradient( 273deg, rgba(28, 165, 206, 0.926) 3%,rgb(53, 102, 207)    100%);
 }
 h1 {
     color: white;
-    font-size: 3.4rem;
+    font-size: 4rem;
     line-height: 70px;
-    font-weight: 220;
+    font-weight: 300;
+    margin-bottom:20px;
+
 }
 h2 {
     color: white;
     font-size: 2.7rem;
     letter-spacing: 6px;
     line-height: 50px;
+    font-weight: 200;
+}
+h4{
+    color: white;
+    font-size: 1.9rem;
+    letter-spacing: 4px;
+    line-height: 45px;
     font-weight: 200;
 }
 p {
@@ -94,12 +103,12 @@ p {
 }
 .main {
     display: grid;
-    grid-template-columns: 38% 51% 15%;
+    grid-template-columns: 36% 52% 15%;
     grid-template-rows: auto;
     
 }
 .content { 
-    margin: 35px 0;
+    margin: 60px 0;
 }
 
 .icon {
