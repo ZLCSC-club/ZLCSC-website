@@ -2,6 +2,8 @@
 @import "./section-2.css";
 @import "./section-3.css";
 @import "./header.css";
+@import "./animation.css";
+
 @import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
 
 /* Start reset css */
@@ -75,11 +77,10 @@ body {
 }
 h1 {
     color: white;
-    font-size: 4rem;
+    font-size: 3.3rem;
     line-height: 70px;
-    font-weight: 300;
+    font-weight: 100;
     margin-bottom:20px;
-
 }
 h2 {
     color: white;
@@ -91,32 +92,27 @@ h2 {
 h4{
     color: white;
     font-size: 1.9rem;
-    letter-spacing: 4px;
+    letter-spacing: 2.5px;
     line-height: 45px;
     font-weight: 200;
 }
 p {
     font-size: 1.8rem;
     line-height: 40px;
+
     color: white;
     font-weight: 300;
 }
 .main {
     display: grid;
-    grid-template-columns: 36% 52% 15%;
-    grid-template-rows: auto;
-    
+    grid-template-columns: 34% 53% 13%;
+    grid-template-rows: auto;  
 }
 .content { 
     margin: 60px 0;
 }
-
 .icon {
     text-decoration: none;
-}
-
-#js_explained{
-    letter-spacing: 8px;
 }
 a,li{
     text-decoration: none;

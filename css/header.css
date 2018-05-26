@@ -2,12 +2,11 @@
     display: block;
     position: fixed;
     top: 70px;
-    left: 9vw;
+    left: 6vw;
     width: 270px;
     line-height: 3.3em;
     animation: opacity 0.5s 1;
     animation-timing-function: ease-out;
-
 }
 .logo {
     position: relative;
@@ -19,7 +18,6 @@
 }
 .logo img {
     width: 110%;
-
 }
 #headerwords {
     display: block;
