@@ -82,7 +82,7 @@
     margin:0
 }
 .left h1{
-    margin:0 
+    letter-spacing:50px
 }
 .codeimg-right{
     font-size: 11rem;
@@ -94,7 +94,6 @@
     margin:0
 }
 #underline{
-
     animation: blink 1s infinite;
 
 }
