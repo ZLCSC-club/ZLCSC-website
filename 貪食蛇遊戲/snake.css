@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
+
+html, body {
+
+  height: 100%;
+  margin: 0;
+  font-family: courier;
+  letter-spacing: 3px;
+  background: black;
+
+}
+.game{
+  height:100%;
+  width:80%;
+  float:right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+canvas {
+  max-width: 100%;
+
+}
+
+.panel {
+  position: absolute;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  font-family: courier;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+}
+button:hover {
+  background-color: white;
+  color: grey;
+}
+
+
+
+
+
+.lefttop {
+  position: fixed;
+  top: 70px;
+  left: 80px;
+  color: white;
+  width:270px;
+  font-size: 25px;
+
+}
+
+.lefttop img {
+  width:105%
+}
+
+#headerwords {
+  width: 83%;
+  height:2rem;
+  display: block;
+  padding: 0.7rem 0.7rem 0rem;
+
+  font-size: 1.2rem;
+  font-weight: 400;
+  border: 2px solid white;
+  letter-spacing: 5px;
+  color: white;
+  margin:30px 10px ;
+  text-align: center;
+}
+a{
+  text-decoration: none
+
+}
+
+#score{
+  margin-left:15px;
+  margin-top:40px;
+
+}
