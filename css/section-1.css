@@ -103,3 +103,6 @@
     50%  {opacity: 1;}
     100% {opacity: 0;}
 }
+#bigtitle{
+    letter-spacing: 4px
+}

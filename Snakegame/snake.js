@@ -130,17 +130,17 @@ Game.prototype.drawEffect = function(x,y) {
   requestAnimationFrame(effect)
 }
 Game.prototype.render = function() {
-  this.ctx.fillStyle = "rgba(4, 4, 4, 0.9)"; //顏色
+  this.ctx.fillStyle = "rgba(28, 165, 206, 0.926)"; //顏色
   this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
   //(矩形左上角的x座標,矩形左上角的y座標,寬度,高度)
   for (var x=0; x<this.gameWidth; x++) {
     //gameWidth為遊戲格字數
     for (var y=0; y<this.gameWidth; y++) {
-      this.drawBlock(new Vector(x, y), "rgba(164, 164, 164,0.2)");
+      this.drawBlock(new Vector(x, y), "white");
     }
   }
   this.snake.body.forEach((sp,i)=>{
-    this.drawBlock(sp,"white")
+    this.drawBlock(sp,"rgb(53, 102, 207) ")
   })
   this.food.forEach((p)=>{
     this.drawBlock(p,"red")

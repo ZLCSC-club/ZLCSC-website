@@ -6,7 +6,7 @@ html, body {
   margin: 0;
   font-family: courier;
   letter-spacing: 3px;
-  background: black;
+  background:linear-gradient( 273deg, rgba(28, 165, 206, 0.926) 3%,rgb(53, 102, 207)    100%);
 
 }
 .game{
@@ -19,15 +19,6 @@ html, body {
 }
 canvas {
   max-width: 100%;
-
-}
-
-.panel {
-  position: absolute;
-  color: white;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 
 button {
@@ -38,14 +29,14 @@ button {
   cursor: pointer;
   outline: none;
   font-size: 20px;
+  border: 2px solid white;
+
+  font-size: 30px
 }
 button:hover {
   background-color: white;
   color: grey;
 }
-
-
-
 
 
 .lefttop {
@@ -70,7 +61,7 @@ button:hover {
 
   font-size: 1.2rem;
   font-weight: 400;
-  border: 2px solid white;
+  border: 2px solid ;
   letter-spacing: 5px;
   color: white;
   margin:30px 10px ;
@@ -78,11 +69,8 @@ button:hover {
 }
 a{
   text-decoration: none
-
 }
-
-#score{
+#score,button{
   margin-left:15px;
   margin-top:40px;
-
 }

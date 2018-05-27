@@ -118,3 +118,31 @@ p {
 a,li{
     text-decoration: none;
 }
+
+#ourgame{
+    position: fixed;
+    top:20px; 
+    right:30px;
+    display:flex;
+    align-items: center;
+    background: rgba(255, 255, 255,0.1);
+    border: 2px solid white;
+    padding:0 10px;
+    justify-content:center;
+    font-weight: 400
+
+
+}
+
+#ourgame a{
+    text-decoration: none;
+    color:white;
+    font-size:2rem;
+}
+
+#ourgame:hover{
+    background:white
+}
+#ourgame a:hover{
+    color: rgba(28, 165, 206, 0.926);
+} 
