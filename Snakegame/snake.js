@@ -33,14 +33,16 @@ var Snake = function (){
   this.speed = new Vector(1,0)
   this.direction = "Right"  
 }
+
 Snake.prototype.update = function(){
-  let newHead = this.head.add(this.speed)
+  var newHead = this.head.add(this.speed)
   this.body.push(this.head)
   this.head = newHead 
   while (this.body.length > this.maxLength){
     this.body.shift()
   }
 }
+
 Snake.prototype.setDirection = function(dir){
   var target 
   if(dir=="Up"){
@@ -62,22 +64,23 @@ Snake.prototype.setDirection = function(dir){
 
 var Game = function() {
   this.bw = 22; //每個格子的寬度
-  this.bs = 3; //每個格子的間距
-  this.gameWidth = 25; //遊戲格子數
+  this.bs = 2; //每個格子的間距
+  this.gameWidth = 26; //遊戲格子數
   this.speed = 30; //速度
   this.snake = new Snake()
   this.food = [];
   this.init()
   this.start = false
   this.generateFood()
-
 };
+
 Snake.prototype.checkBoundary = function (gameWidth){
   let xInRange = 0 <= this.head.x && this.head.x < gameWidth
   let yInRange = 0 <= this.head.y && this.head.y < gameWidth
   return xInRange && yInRange
   console.log(xInRange && yInRange)  
 }
+
 Game.prototype.init = function() {
   this.canvas = document.getElementById("mycanvas");
   this.ctx = this.canvas.getContext("2d");
@@ -85,17 +88,19 @@ Game.prototype.init = function() {
   this.canvas.height = this.canvas.width; //設定高度和寬度相等
   this.render();
   this.update() ;
-
 };
+
 Game.prototype.startGame = function() {
   this.start = true
   this.snake = new Snake()
-  $(".panel").hide()
+  $('#gameover').text("")
+  $('#gameoverscore').text("")
+
 }
+
 Game.prototype.endGame = function() {
   this.start = false
-  $('h2').text("Score:"+ (this.snake.maxLength-5)*10)
-  $(".panel").show()
+  $('h2').text("分數" + (this.snake.maxLength-5)*10)
 }
 
 Game.prototype.getPosition = function(x, y) {
@@ -129,6 +134,7 @@ Game.prototype.drawEffect = function(x,y) {
   }
   requestAnimationFrame(effect)
 }
+
 Game.prototype.render = function() {
   this.ctx.fillStyle = "rgba(28, 165, 206, 0.926)"; //顏色
   this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
@@ -183,13 +189,18 @@ Game.prototype.update = function(){
       if(this.snake.head.equal(bp)){
         console.log("碰")
         this.endGame()
+        $('#gameover').text("Game Over")
+        $('#gameoverscore').text("分數:"+ (this.snake.maxLength-5)*10)
       }
     })
-    if(this.snake.checkBoundary(this.gameWidth)==false){
+    if(this.snake.checkBoundary(this.gameWidth)== false){
       this.endGame()
-    }
-    $('.lefttop h2').text("Score:"+ (this.snake.maxLength-5)*10)
 
+      $('#gameover').text("Game Over")
+      $('#gameoverscore').text("score:"+ (this.snake.maxLength-5)*10)
+
+    }
+    $('.lefttop h2').text("score:"+ (this.snake.maxLength-5)*10)
   }
   setTimeout(()=>{
     this.update()
@@ -197,7 +208,6 @@ Game.prototype.update = function(){
 };
 
 var game = new Game();
-game.init();
 
 $(window).keydown(function(evt){
   console.log(evt.key)

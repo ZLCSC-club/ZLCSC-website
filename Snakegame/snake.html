@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./snake.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.1.20/Tone.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="./jquery.js"></script>
+    <script src="./tone.js"></script>
     <title>中崙資研 ZLCSC 貪食蛇！</title>
     <link rel="icon" href="./img/iconcolor.gif">
 </head>
@@ -18,13 +17,13 @@
             <a href="../index.html"><div id="headerwords">中崙高中資訊研究社</div></a>
         </div>
         <h2 id="score">score:0</h2>
-        <button onclick="game.startGame()">Start Game</button>
 
+        <button onclick="game.startGame()">開始遊戲</button>
     </div>
 
     <div class="game">
-
-
+        <h2 id="gameover"></h2>
+        <h2 id="gameoverscore"></h2>
 
         <canvas id="mycanvas"></canvas>
     </div>
